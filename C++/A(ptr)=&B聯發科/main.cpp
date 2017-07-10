@@ -1,3 +1,5 @@
+//https://kheresy.wordpress.com/2014/10/03/override-and-final-in-cpp-11/
+//https://openhome.cc/Gossip/CppGossip/VirtualFunction.html
 #include <iostream>
 using namespace std;
 

@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059E2C441EFBAB570056EC03 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C431EFBAB570056EC03 /* main.cpp */; };
+		059E2C4C1EFBAEC70056EC03 /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C4A1EFBAEC70056EC03 /* Vehicle.cpp */; };
+		059E2C4F1EFBAF1E0056EC03 /* VehicleSize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C4D1EFBAF1E0056EC03 /* VehicleSize.cpp */; };
+		059E2C521EFBC9360056EC03 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C501EFBC9360056EC03 /* Car.cpp */; };
+		059E2C551EFBCAD10056EC03 /* Truck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C531EFBCAD10056EC03 /* Truck.cpp */; };
+		059E2C581EFBE7250056EC03 /* ParkingSpot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C561EFBE7250056EC03 /* ParkingSpot.cpp */; };
+		059E2C5B1EFBFC630056EC03 /* Level.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C591EFBFC630056EC03 /* Level.cpp */; };
+		059E2C5E1EFC03640056EC03 /* ParkingLot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 059E2C5C1EFC03640056EC03 /* ParkingLot.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		059E2C3E1EFBAB570056EC03 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		059E2C401EFBAB570056EC03 /* parkman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = parkman; sourceTree = BUILT_PRODUCTS_DIR; };
+		059E2C431EFBAB570056EC03 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		059E2C4A1EFBAEC70056EC03 /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vehicle.cpp; sourceTree = "<group>"; };
+		059E2C4B1EFBAEC70056EC03 /* Vehicle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vehicle.hpp; sourceTree = "<group>"; };
+		059E2C4D1EFBAF1E0056EC03 /* VehicleSize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VehicleSize.cpp; sourceTree = "<group>"; };
+		059E2C4E1EFBAF1E0056EC03 /* VehicleSize.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VehicleSize.hpp; sourceTree = "<group>"; };
+		059E2C501EFBC9360056EC03 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		059E2C511EFBC9360056EC03 /* Car.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Car.hpp; sourceTree = "<group>"; };
+		059E2C531EFBCAD10056EC03 /* Truck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Truck.cpp; sourceTree = "<group>"; };
+		059E2C541EFBCAD10056EC03 /* Truck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Truck.hpp; sourceTree = "<group>"; };
+		059E2C561EFBE7250056EC03 /* ParkingSpot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkingSpot.cpp; sourceTree = "<group>"; };
+		059E2C571EFBE7250056EC03 /* ParkingSpot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParkingSpot.hpp; sourceTree = "<group>"; };
+		059E2C591EFBFC630056EC03 /* Level.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Level.cpp; sourceTree = "<group>"; };
+		059E2C5A1EFBFC630056EC03 /* Level.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Level.hpp; sourceTree = "<group>"; };
+		059E2C5C1EFC03640056EC03 /* ParkingLot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParkingLot.cpp; sourceTree = "<group>"; };
+		059E2C5D1EFC03640056EC03 /* ParkingLot.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParkingLot.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059E2C3D1EFBAB570056EC03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059E2C371EFBAB570056EC03 = {
+			isa = PBXGroup;
+			children = (
+				059E2C421EFBAB570056EC03 /* parkman */,
+				059E2C411EFBAB570056EC03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		059E2C411EFBAB570056EC03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				059E2C401EFBAB570056EC03 /* parkman */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		059E2C421EFBAB570056EC03 /* parkman */ = {
+			isa = PBXGroup;
+			children = (
+				059E2C431EFBAB570056EC03 /* main.cpp */,
+				059E2C5C1EFC03640056EC03 /* ParkingLot.cpp */,
+				059E2C5D1EFC03640056EC03 /* ParkingLot.hpp */,
+				059E2C591EFBFC630056EC03 /* Level.cpp */,
+				059E2C5A1EFBFC630056EC03 /* Level.hpp */,
+				059E2C561EFBE7250056EC03 /* ParkingSpot.cpp */,
+				059E2C571EFBE7250056EC03 /* ParkingSpot.hpp */,
+				059E2C531EFBCAD10056EC03 /* Truck.cpp */,
+				059E2C541EFBCAD10056EC03 /* Truck.hpp */,
+				059E2C501EFBC9360056EC03 /* Car.cpp */,
+				059E2C511EFBC9360056EC03 /* Car.hpp */,
+				059E2C4A1EFBAEC70056EC03 /* Vehicle.cpp */,
+				059E2C4B1EFBAEC70056EC03 /* Vehicle.hpp */,
+				059E2C4D1EFBAF1E0056EC03 /* VehicleSize.cpp */,
+				059E2C4E1EFBAF1E0056EC03 /* VehicleSize.hpp */,
+			);
+			path = parkman;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		059E2C3F1EFBAB570056EC03 /* parkman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 059E2C471EFBAB570056EC03 /* Build configuration list for PBXNativeTarget "parkman" */;
+			buildPhases = (
+				059E2C3C1EFBAB570056EC03 /* Sources */,
+				059E2C3D1EFBAB570056EC03 /* Frameworks */,
+				059E2C3E1EFBAB570056EC03 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = parkman;
+			productName = parkman;
+			productReference = 059E2C401EFBAB570056EC03 /* parkman */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		059E2C381EFBAB570056EC03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Koshr;
+				TargetAttributes = {
+					059E2C3F1EFBAB570056EC03 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 059E2C3B1EFBAB570056EC03 /* Build configuration list for PBXProject "parkman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 059E2C371EFBAB570056EC03;
+			productRefGroup = 059E2C411EFBAB570056EC03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				059E2C3F1EFBAB570056EC03 /* parkman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		059E2C3C1EFBAB570056EC03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059E2C4C1EFBAEC70056EC03 /* Vehicle.cpp in Sources */,
+				059E2C4F1EFBAF1E0056EC03 /* VehicleSize.cpp in Sources */,
+				059E2C5E1EFC03640056EC03 /* ParkingLot.cpp in Sources */,
+				059E2C581EFBE7250056EC03 /* ParkingSpot.cpp in Sources */,
+				059E2C5B1EFBFC630056EC03 /* Level.cpp in Sources */,
+				059E2C551EFBCAD10056EC03 /* Truck.cpp in Sources */,
+				059E2C521EFBC9360056EC03 /* Car.cpp in Sources */,
+				059E2C441EFBAB570056EC03 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		059E2C451EFBAB570056EC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		059E2C461EFBAB570056EC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		059E2C481EFBAB570056EC03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		059E2C491EFBAB570056EC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		059E2C3B1EFBAB570056EC03 /* Build configuration list for PBXProject "parkman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E2C451EFBAB570056EC03 /* Debug */,
+				059E2C461EFBAB570056EC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		059E2C471EFBAB570056EC03 /* Build configuration list for PBXNativeTarget "parkman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				059E2C481EFBAB570056EC03 /* Debug */,
+				059E2C491EFBAB570056EC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 059E2C381EFBAB570056EC03 /* Project object */;
+}

@@ -21,7 +21,7 @@ public:
 class mycomp{
 public:
     int operator()(const Point& p1, const Point& p2)const{
-        return (p1._a + p1._b)>(p2._a + p2._b);
+        return (p1._a + p1._b)>(p2._a + p2._b);//c++:p1<p2 遞增 越右邊越大 //java:p1-p2 遞增 越右邊越大
     }
 };
 int main () {
